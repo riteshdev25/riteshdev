@@ -1,0 +1,151 @@
+<html >
+<head>    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+    <h1>GH Information-1</h1>
+    <form action="req.html">
+    <div class="input-field">
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>GH Full Address</label><br>
+        <input type="text" placeholder="Your Answer" required />
+    </div>
+    <div class="input-field">
+        <label>Gender</label><br>
+        <select required>
+            <option disabled selected>Select gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+        </select>
+    </div>
+    <div class="input-field">
+        <label>Student Capacity</label><br>
+        <input type="number" placeholder="Your Answer" required />
+    </div>
+    <div class="input-field">
+        <label>GH Lead/GH Owner</label><br>
+        <input type="text" placeholder="Your Answer" required />
+    </div>
+    <div class="input-field">
+        <label>Lease Start Date</label><br>
+        <input type="date" placeholder="Enter start date" required />
+    </div>
+    <div class="input-field">
+        <label>Lease End Date</label><br>
+        <input type="date" placeholder="Enter End date" required />
+    </div>
+    <div class="input-field">
+        <label>Leasing Person Names</label><br>
+        <input type="text" placeholder="Your Answer" required />
+    </div>
+    <div class="input-field">
+        <label>Rent</label><br>
+        <input type="number" placeholder="Your Answer" required />
+    </div>
+    <div class="input-field">
+        <label>Payment Method</label><br>
+        <select required>
+            <option disabled selected>Select payment method</option>
+            <option>Zelle to Landlord</option>
+            <option>Zelle to GH Owner</option>
+            <option>Bank Transfer</option>
+            <option>Other</option>
+        </select>
+    </div>
+    <div class="input-field">
+        <label>Initial GH Setup(Expected Amount)</label><br>
+        <input type="number" placeholder="Your Answer" required />
+    </div>
+    <div class="input-field">
+        <label>Utilities(Expected Amount)<br>Including water bill, power bill, wifi</label><br>
+        <input type="number" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Groceries(Expected for one month)</label><br>
+        <input type="number" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Proxies (Expected Amount Every Month)</label><br>
+        <input type="number" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Miscellenious (Lawn, Cleaning, Repairs, etc.,)</label><br>
+        <input type="number" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Electricity Login Credentials (URL)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Electricity Login Credentials (Login ID)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Electricity Login Credentials (Password)</label><br>
+        <input type="password" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Gas Login Credentials (URL)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Gas Login Credentials (Login ID)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Gas Login Credentials (Password)</label><br>
+        <input type="password" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Wifi Login Credentials (URL)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Wifi Login Credentials (Login ID)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Wifi Login Credentials (Password)</label><br>
+        <input type="password" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Utilities Login Credentials Water and Trash (URL)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Utilities Login Credentials Water and Trash (Login ID)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Utilities Login Credentials Water and Trash (Password)</label><br>
+        <input type="password" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Washer Dryer(URL)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Washer Dryer (Login ID)</label><br>
+        <input type="text" placeholder="Your Answer" required>
+    </div>
+    <div class="input-field">
+        <label>Waher Dryer (Password)</label><br>
+        <input type="password" placeholder="Your Answer" required>
+        </div>
+    <div class="inert">
+    <button class="sumbit">
+        <span class="btnText">Submit</span>
+        <i class="uil uil-navigator"></i>
+    </button>
+    </div>
+    </form>
+    </div>
+</body>
+</html>
